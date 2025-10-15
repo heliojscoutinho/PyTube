@@ -1,6 +1,6 @@
-# Instalar o pytube (pip install pytube)
+# Instalar o pytube (pip install pytubefix)
 
-from pytube import YouTube
+from pytubefix import YouTube
 
 #Digite o link do vídeo.
 link = input("Digite o link do vídeo: ")
@@ -19,3 +19,6 @@ ys = yt.streams.get_highest_resolution()
 print("Efetuando o download...")
 ys.download(path)
 print("Download finalizado!")
+
+
+
